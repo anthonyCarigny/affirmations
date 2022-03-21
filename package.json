@@ -2,10 +2,10 @@
   "name": "affirmations",
   "version": "0.0.0",
   "description": "an api for getting affirmations",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
       "test": "jest --coverage --forceExit",
-    "start": "node index.js",
+    "start": "node api/index.js",
     "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'"
   },
   "repository": {
